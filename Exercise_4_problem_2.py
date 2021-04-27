@@ -41,6 +41,7 @@ def temp_classifier(temp_celsius):
 
 # Use your newly created function to print the answers to the following questions:
 
+
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
 print(temp_classifier(16.5))
