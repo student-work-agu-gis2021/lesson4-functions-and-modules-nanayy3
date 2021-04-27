@@ -97,6 +97,7 @@ for i in temp_classes:
   else:
     threes += 1
 
+
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
 # ### Problem 3 tests
