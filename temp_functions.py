@@ -1,9 +1,11 @@
 def fahr_to_celsius(temp_fahrenheit):
+  """convert from Fahrenheit to Celsius"""
   converted_temp = (temp_fahrenheit - 32) / 1.8
   return converted_temp
 
 
 def temp_classifier(temp_celsius):
+  """classify into four groups by degrees"""
   if temp_celsius < -2:
     number = 0
     return number
@@ -16,3 +18,5 @@ def temp_classifier(temp_celsius):
   else:
     number = 3
     return number
+
+
